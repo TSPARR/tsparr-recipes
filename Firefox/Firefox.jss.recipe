@@ -19,7 +19,7 @@ combination is offered.</string>
 		<key>GROUP_NAME</key>
 		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>Firefox</string>
 		<key>OS_REQUIREMENTS</key>

@@ -24,7 +24,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>GROUP_NAME</key>
 		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>SmartGroupTemplate.xml</string>
+		<string>Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
