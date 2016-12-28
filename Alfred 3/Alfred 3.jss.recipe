@@ -17,7 +17,7 @@
 		<key>NAME</key>
 		<string>Alfred 3</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Applications</string>
+		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>

@@ -28,7 +28,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Apps</string>
+		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
