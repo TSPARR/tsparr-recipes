@@ -19,7 +19,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Plug-Ins</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Update Policy Template.xml</string>
+		<string>Automatically Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Adobe Flash Player is freeware software for using content created on the Adobe Flash platform, including viewing multimedia, executing rich Internet applications, and streaming video and audio.</string>
 		<key>SELF_SERVICE_ICON</key>
@@ -68,6 +68,60 @@
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>category</key>
+					<string>%CATEGORY%</string>
+					<key>groups</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>Plug-Ins - %NAME% - Not Installed</string>
+							<key>smart</key>
+							<true/>
+							<key>template_path</key>
+							<string>Install Adobe Flash Player Smart Group Template.xml</string>
+						</dict>
+					</array>
+					<key>policy_category</key>
+					<string>Plug-Ins</string>
+					<key>policy_template</key>
+					<string>Policy Template.xml</string>
+					<key>prod_name</key>
+					<string>%NAME%</string>
+					<key>self_service_description</key>
+					<string>This will install the most recent version of %NAME%.
+
+Note: Encore Technologies does not recommend installing %NAME% unless it's needed for a critical website. Please consider using Google Chrome instead.</string>
+					<key>self_service_icon</key>
+					<string>%SELF_SERVICE_ICON%</string>
+				</dict>
+				<key>Processor</key>
+				<string>JSSImporter</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>groups</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>Plug-Ins - %NAME% - Current</string>
+							<key>smart</key>
+							<true/>
+							<key>template_path</key>
+							<string>Current Adobe Flash Player Smart Group Template.xml</string>
+						</dict>
+					</array>
+					<key>pkg_path</key>
+					<string></string>
+					<key>policy_template</key>
+					<string></string>
+				</dict>
+				<key>Processor</key>
+				<string>JSSImporter</string>
+			</dict>
 	</array>
 </dict>
 </plist>

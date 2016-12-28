@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>This will update your copy to the most recent version of Adium.</string>
+		<string>This will update your copy to the most recent version of %NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Adium.png</string>
 	</dict>
@@ -84,7 +84,7 @@
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the most recent version of Adium.</string>
+				<string>This will install the most recent version of %NAME%.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
