@@ -19,7 +19,7 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.12.x,10.11.x,10.10.x,10.9.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
+		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>

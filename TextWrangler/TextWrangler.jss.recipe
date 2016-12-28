@@ -17,7 +17,7 @@
 		<key>NAME</key>
 		<string>TextWrangler</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Testing</string>
+		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>PolicyTemplate.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
