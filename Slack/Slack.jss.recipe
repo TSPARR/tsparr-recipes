@@ -20,11 +20,11 @@ https://github.com/homebysix/auto-update-magic</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
-		<string>Apps</string>
+		<string>Applications</string>
 		<key>DESCRIPTION</key>
 		<string></string>
 		<key>ICON</key>
-		<string>%RECIPE_DIR%/Slack.png</string>
+		<string>Slack.png</string>
 		<key>NAME</key>
 		<string>Slack</string>
 		<key>POLICY_CATEGORY</key>
