@@ -138,8 +138,6 @@ https://github.com/homebysix/auto-update-magic</string>
 						<string>Not Installed Smart Group Template.xml</string>
 					</dict>
 					<dict>
-						<key>scripts</key>
-						<dict/>
 						<key>name</key>
 						<string>Software - %NAME% - Current</string>
 						<key>smart</key>
