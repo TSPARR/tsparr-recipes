@@ -11,11 +11,11 @@
 		<key>CATEGORY</key>
 		<string>Software Updates</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>Office 2011 Update Smart Group Template.xml</string>
 		<key>NAME</key>
-		<string>Office2011Update</string>
+		<string>Office 2011</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>

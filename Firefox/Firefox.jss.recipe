@@ -17,7 +17,7 @@ combination is offered.</string>
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>%NAME%-update-smart</string>
+		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>SmartGroupTemplate.xml</string>
 		<key>NAME</key>
