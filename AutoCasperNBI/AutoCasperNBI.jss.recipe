@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>Smart Group Template.xml</string>
 		<key>NAME</key>
-		<string>Adium</string>
+		<string>AutoCasperNBI</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-<string>com.github.homebysix.download.AutoCasperNBI</string>
+<string>com.github.homebysix.pkg.AutoCasperNBI</string>
 	<key>Process</key>
 	<array>
 		<dict>
