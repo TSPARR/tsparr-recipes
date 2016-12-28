@@ -136,8 +136,6 @@ Note: Encore Technologies does not recommend installing %NAME% unless it's neede
 							<string>Install Adobe Flash Player Smart Group Template.xml</string>
 						</dict>
 						<dict>
-							<key>scripts</key>
-							<dict/>
 							<key>name</key>
 							<string>Plug-Ins - %NAME% - Current</string>
 							<key>smart</key>
