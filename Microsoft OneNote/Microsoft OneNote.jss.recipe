@@ -22,7 +22,7 @@
 		<key>GROUP_NAME</key>
 		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Microsoft OneNoteSmartGroupTemplate.xml</string>
+		<string>Microsoft OneNote Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>Microsoft OneNote</string>
 		<key>OS_REQUIREMENTS</key>

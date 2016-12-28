@@ -23,7 +23,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Updates for MS Office 2011.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>Office2011Update.png</string>
+		<string>Office 2011.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>

@@ -23,7 +23,7 @@
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Adobe Flash Player is freeware software for using content created on the Adobe Flash platform, including viewing multimedia, executing rich Internet applications, and streaming video and audio.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string>AdobeFlashPlayer.png</string>
+		<string>Adobe Flash Player.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>

@@ -22,7 +22,7 @@
 		<key>GROUP_NAME</key>
 		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Microsoft WordSmartGroupTemplate.xml</string>
+		<string>Microsoft Word Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>Microsoft Word</string>
 		<key>OS_REQUIREMENTS</key>

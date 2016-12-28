@@ -22,7 +22,7 @@
 		<key>GROUP_NAME</key>
 		<string>Software - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Microsoft OutlookSmartGroupTemplate.xml</string>
+		<string>Microsoft Outlook Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>Microsoft Outlook</string>
 		<key>OS_REQUIREMENTS</key>
