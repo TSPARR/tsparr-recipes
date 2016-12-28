@@ -27,7 +27,7 @@ combination is offered.</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Mozilla Firefox is a free and open source web browser.</string>
 		<key>SELF_SERVICE_ICON</key>

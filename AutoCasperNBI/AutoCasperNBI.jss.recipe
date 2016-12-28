@@ -19,7 +19,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>AutoCasperNBI is an app that automates the creation of NetBoot Images (read: NBI's) for use with Casper Imaging.</string>
 		<key>SELF_SERVICE_ICON</key>

@@ -19,7 +19,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Alfred is a productivity application for Mac OS X, which aims to save you time in searching your local computer and the web.</string>
 		<key>SELF_SERVICE_ICON</key>

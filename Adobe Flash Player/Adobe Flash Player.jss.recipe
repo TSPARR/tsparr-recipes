@@ -13,13 +13,13 @@
 		<key>GROUP_NAME</key>
 		<string>Plug-Ins - %NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>AdobeFlashPlayerSmartGroupTemplate.xml</string>
+		<string>Automatically Update Adobe Flash Player Smart Group Template.xml</string>
 		<key>NAME</key>
-		<string>AdobeFlashPlayer</string>
+		<string>Adobe Flash Player</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Plug-Ins</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Adobe Flash Player is freeware software for using content created on the Adobe Flash platform, including viewing multimedia, executing rich Internet applications, and streaming video and audio.</string>
 		<key>SELF_SERVICE_ICON</key>

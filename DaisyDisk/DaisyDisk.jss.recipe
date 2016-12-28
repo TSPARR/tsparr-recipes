@@ -21,7 +21,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>See what's on your Mac and recover disk space every time you need it.</string>
 		<key>SELF_SERVICE_ICON</key>

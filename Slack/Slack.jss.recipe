@@ -30,7 +30,7 @@ https://github.com/homebysix/auto-update-magic</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Apps</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Slack brings all your communication together in one place. It's real-time messaging, archiving and search for modern teams.</string>
 		<key>SELF_SERVICE_ICON</key>

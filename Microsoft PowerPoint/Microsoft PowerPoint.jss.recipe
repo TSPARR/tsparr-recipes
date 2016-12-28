@@ -30,7 +30,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>PolicyTemplate.xml</string>
+		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Microsoft PowerPoint allows the creation and presentation of professional slide decks.</string>
 		<key>SELF_SERVICE_ICON</key>
