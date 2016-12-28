@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest version of Adium and builds an Apple installer pkg. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.Adium</string>
+	<string>com.github.TSPARR.jss.Adium</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads and installs the current release version of Alfred 3.</string>
 	<key>Identifier</key>
-	<string>io.github.hjuutilainen.install.Alfred3</string>
+	<string>com.github.TSPARR.install.Alfred3</string>
 	<key>Input</key>
 	<dict>
 		<key>RELEASE_TYPE</key>

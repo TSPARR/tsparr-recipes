@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest TextWrangler and creates a package. Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.TextWrangler</string>
+	<string>com.github.TSPARR.jss.TextWrangler</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

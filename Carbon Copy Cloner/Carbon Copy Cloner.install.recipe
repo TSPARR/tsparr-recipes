@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Installs the current release version of CarbonCopyCloner.</string>
 	<key>Identifier</key>
-	<string>com.github.keeleysam.recipes.CarbonCopyCloner.install</string>
+	<string>com.github.TSPARR.install.CarbonCopyCloner</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

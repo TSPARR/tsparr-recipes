@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Installs the current release version of TextWrangler.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.install.TextWrangler</string>
+    <string>com.github.TSPARR.install.TextWrangler</string>
     <key>Input</key>
     <dict>
     </dict>

@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest Google Chrome disk image and installs Google Chrome.</string>
     <key>Identifier</key>
-    <string>com.github.autopkg.install.googlechrome</string>
+    <string>com.github.TSPARR.install.GoogleChrome</string>
     <key>Input</key>
     <dict/>
     <key>MinimumVersion</key>

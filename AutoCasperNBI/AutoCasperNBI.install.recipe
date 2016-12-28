@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of AutoCasperNBI.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.install.AutoCasperNBI</string>
+	<string>com.github.TSPARR.install.AutoCasperNBI</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

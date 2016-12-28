@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of LaunchControl.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.install.LaunchControl</string>
+	<string>com.github.TSPARR.install.LaunchControl</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

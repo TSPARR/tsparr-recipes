@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of AirServer, makes a pkg of it, and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.AirServer</string>
+	<string>com.github.TSPARR.jss.AirServer</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

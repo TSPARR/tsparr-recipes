@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads, packages and installs the current release version of Atom</string>
 	<key>Identifier</key>
-	<string>io.github.hjuutilainen.install.Atom</string>
+	<string>com.github.TSPARR.install.Atom</string>
 	<key>Input</key>
 	<dict>
 	</dict>

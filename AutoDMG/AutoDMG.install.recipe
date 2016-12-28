@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of AutoDMG and creates a pkg, installs it.</string>
 	<key>Identifier</key>
-	<string>com.github.autopkg.cgerke-recipes.install.AutoDMG</string>
+	<string>com.github.TSPARR.install.AutoDMG</string>
 	<key>Input</key>
 	<dict>
 	</dict>

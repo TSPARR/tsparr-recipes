@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Carbon Copy Cloner and makes a pkg of it then uploads it to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.CarbonCopyCloner</string>
+	<string>com.github.TSPARR.jss.CarbonCopyCloner</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

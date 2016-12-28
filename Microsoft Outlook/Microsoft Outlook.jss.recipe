@@ -14,7 +14,7 @@
 		VERSION currently only supports 'latest'.
 		Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.jss-recipes.jss.MicrosoftOutlook</string>
+	<string>com.github.TSPARR.jss.MicrosoftOutlook</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

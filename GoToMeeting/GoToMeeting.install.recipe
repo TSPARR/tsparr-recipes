@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Installs the latest version of GoToMeeting.</string>
 	<key>Identifier</key>
-	<string>com.github.homebysix.install.GoToMeeting</string>
+	<string>com.github.TSPARR.install.GoToMeeting</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
