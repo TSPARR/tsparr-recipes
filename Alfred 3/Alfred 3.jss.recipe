@@ -113,6 +113,46 @@
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Software - %NAME% - Needs Updates</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>Not Installed Smart Group Template.xml</string>
+					</dict>
+					<dict>
+						<key>scripts</key>
+						<dict/>
+						<key>name</key>
+						<string>Software - %NAME% - Current</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>Current Smart Group Template.xml</string>
+					</dict>
+				</array>
+				<key>scripts</key>
+				<dict/>
+				<key>policy_category</key>
+				<string>Applications</string>
+				<key>policy_template</key>
+				<string>Uninstall Policy Template.xml</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+				<key>self_service_description</key>
+				<string>Having trouble with %NAME% or just no longer using it? This will completely remove it from your computer.</string>
+				<key>self_service_icon</key>
+				<string>Uninstall Alfred 3.png</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
 	</array>
 </dict>
 </plist>
