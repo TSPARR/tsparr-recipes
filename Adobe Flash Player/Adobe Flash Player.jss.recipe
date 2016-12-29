@@ -133,7 +133,7 @@ Note: Encore Technologies does not recommend installing %NAME% unless it's neede
 							<key>smart</key>
 							<true/>
 							<key>template_path</key>
-							<string>Install Adobe Flash Player Smart Group Template.xml</string>
+							<string>Automatically Update Adobe Flash Player Smart Group Template.xml</string>
 						</dict>
 						<dict>
 							<key>name</key>

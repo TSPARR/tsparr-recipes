@@ -132,7 +132,7 @@ combination is offered.</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
-						<string>Not Installed Smart Group Template.xml</string>
+						<string>Smart Group Template.xml</string>
 					</dict>
 					<dict>
 						<key>name</key>
