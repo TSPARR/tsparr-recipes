@@ -150,7 +150,7 @@ Note: Encore Technologies does not recommend installing %NAME% unless it's neede
 							<key>name</key>
 							<string>Uninstall Adobe Flash Player.sh</string>
 							<key>template_path</key>
-							<string>Adobe Flash Player Script Template.xml</string>
+							<string>Uninstall Adobe Flash Player Script Template.xml</string>
 						</dict>
 					</array>
 					<key>policy_category</key>
