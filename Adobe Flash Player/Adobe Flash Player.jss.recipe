@@ -154,7 +154,7 @@ Note: Encore Technologies does not recommend installing %NAME% unless it's neede
 						</dict>
 					</array>
 					<key>policy_category</key>
-					<string>Plug-Ins</string>
+					<string>Uninstall</string>
 					<key>policy_template</key>
 					<string>Uninstall Adobe Flash Player Policy Template.xml</string>
 					<key>prod_name</key>

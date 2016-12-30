@@ -160,7 +160,7 @@
 				<key>scripts</key>
 				<dict/>
 				<key>policy_category</key>
-				<string>Applications</string>
+				<string>Uninstall</string>
 				<key>policy_template</key>
 				<string>Uninstall Policy Template.xml</string>
 				<key>prod_name</key>
