@@ -93,7 +93,7 @@
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the most recent version of %NAME%.
+				<string>This will install the latest version of %NAME%.
 
 Note: Encore Technologies does not recommend installing %NAME% unless it's needed for a critical website.</string>
 				<key>self_service_icon</key>
