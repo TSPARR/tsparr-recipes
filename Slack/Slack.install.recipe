@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Installs the current release version of Slack.</string>
     <key>Identifier</key>
-    <string>com.github.TSPARR.install.slack</string>
+    <string>com.github.TSPARR.install.Slack</string>
     <key>Input</key>
     <dict>
     </dict>
