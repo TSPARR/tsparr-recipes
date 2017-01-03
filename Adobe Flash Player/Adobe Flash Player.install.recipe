@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Adobe Flash Player installer, extracts the embedded package and installs it.</string>
     <key>Identifier</key>
-    <string>com.github.TSPARR.install.FlashPlayer</string>
+    <string>com.github.TSPARR.install.AdobeFlashPlayer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
