@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads and installs the latest Dropbox.</string>
     <key>Identifier</key>
-    <string>com.github.TSPARR.pkg.Dropbox</string>
+    <string>com.github.TSPARR.install.Dropbox</string>
     <key>Input</key>
     <dict>
     </dict>
