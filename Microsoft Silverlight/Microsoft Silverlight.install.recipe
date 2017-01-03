@@ -17,11 +17,6 @@
         <dict>
             <key>Processor</key>
             <string>Installer</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_path</key>
-                <string>%pathname%/Silverlight.pkg</string>
-            </dict>
         </dict>
     </array>
 </dict>

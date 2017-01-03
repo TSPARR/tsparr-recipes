@@ -14,17 +14,12 @@
     <key>MinimumVersion</key>
     <string>0.6.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.FlashPlayer</string>
+    <string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
     <key>Process</key>
     <array>
         <dict>
             <key>Processor</key>
             <string>Installer</string>
-            <key>Arguments</key>
-            <dict>
-                <key>pkg_path</key>
-                <string>%pathname%/Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg</string>
-            </dict>
         </dict>
     </array>
 </dict>
