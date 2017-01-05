@@ -21,7 +21,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>Automatically Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Adobe Flash Player is freeware software for using content created on the Adobe Flash platform, including viewing multimedia, executing rich Internet applications, and streaming video and audio.</string>
+		<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Microsoft Silverlight.png</string>
 	</dict>

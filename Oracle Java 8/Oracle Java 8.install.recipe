@@ -3,18 +3,18 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads Adium installer, packages, and installs it.</string>
+    <string>Downloads Oracle Java 8 installer, packages, and installs it.</string>
     <key>Identifier</key>
-    <string>com.github.TSPARR.install.Adium</string>
+    <string>com.github.TSPARR.install.OracleJava8</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Adium</string>
+        <string>Oracle Java 8</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.9</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.pkg.Adium</string>
+    <string>com.github.autopkg.pkg.OracleJava8</string>
     <key>Process</key>
     <array>
         <dict>
