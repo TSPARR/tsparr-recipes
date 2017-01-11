@@ -20,10 +20,12 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>Software - %NAME% - Needs Updates</string>
+		<string>Software - %PROD_NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>Microsoft Excel Smart Group Template.xml</string>
 		<key>NAME</key>
+		<string>MicrosoftExcel</string>
+		<key>PROD_NAME</key>
 		<string>Microsoft Excel</string>
 		<key>OS_REQUIREMENTS</key>
 		<string>10.12.x,10.11.x,10.10.x</string>
@@ -32,7 +34,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>This will update your copy to the latest version of %NAME%.</string>
+		<string>This will update your copy to the latest version of %PROD_NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Microsoft Excel.png</string>
 	</dict>
@@ -100,7 +102,7 @@
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
-				<string>%NAME%</string>
+				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
@@ -118,7 +120,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>Software - %NAME% - Not Installed</string>
+						<string>Software - %PROD_NAME% - Not Installed</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
@@ -130,9 +132,9 @@
 				<key>policy_template</key>
 				<string>Policy Template.xml</string>
 				<key>prod_name</key>
-				<string>%NAME%</string>
+				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %NAME%.</string>
+				<string>This will install the latest version of %PROD_NAME%.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
@@ -146,7 +148,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>Software - %NAME% - Current</string>
+						<string>Software - %PROD_NAME% - Current</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
@@ -168,7 +170,7 @@
 				<array>
 					<dict>
 						<key>name</key>
-						<string>Software - %NAME% - Needs Updates</string>
+						<string>Software - %PROD_NAME% - Needs Updates</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
@@ -176,7 +178,7 @@
 					</dict>
 					<dict>
 						<key>name</key>
-						<string>Software - %NAME% - Current</string>
+						<string>Software - %PROD_NAME% - Current</string>
 						<key>smart</key>
 						<true/>
 						<key>template_path</key>
@@ -190,9 +192,9 @@
 				<key>policy_template</key>
 				<string>Uninstall Policy Template.xml</string>
 				<key>prod_name</key>
-				<string>%NAME%</string>
+				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
-				<string>Having trouble with %NAME% or just no longer using it? This will completely remove it from your computer.</string>
+				<string>Having trouble with %PROD_NAME% or just no longer using it? This will completely remove it from your computer.</string>
 				<key>self_service_icon</key>
 				<string>Uninstall Microsoft Excel.png</string>
 			</dict>

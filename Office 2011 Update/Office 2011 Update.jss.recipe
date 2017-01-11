@@ -11,10 +11,12 @@
 		<key>CATEGORY</key>
 		<string>Software Updates</string>
 		<key>GROUP_NAME</key>
-		<string>Software - %NAME% - Needs Updates</string>
+		<string>Software - %PROD_NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>Office 2011 Update Smart Group Template.xml</string>
 		<key>NAME</key>
+		<string>Office2011Update</string>
+		<key>PROD_NAME</key>
 		<string>Office 2011</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Software Updates</string>
@@ -63,7 +65,7 @@
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
-				<string>%NAME%</string>
+				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
