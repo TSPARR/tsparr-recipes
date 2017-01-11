@@ -10,7 +10,7 @@
 			<value>%VERSION%</value>
 		</criterion>
 		<criterion>
-			<name>OracleJavaVersion</name>
+			<name>Oracle Java Version</name>
 			<priority>1</priority>
 			<and_or>and</and_or>
 			<search_type>is not</search_type>
