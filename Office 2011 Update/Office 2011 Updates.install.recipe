@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads and installs the latest Office 2011 update.</string>
     <key>Identifier</key>
-    <string>com.github.TSPARR.install.Office2011Update</string>
+    <string>com.github.TSPARR.install.Office2011Updates</string>
     <key>Input</key>
     <dict>
     </dict>
