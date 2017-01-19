@@ -24,12 +24,45 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%</string>
+				<key>purge_destination</key>
+				<true/>
+				<key>skip_payload</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pattern</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked/*.pkg/PackageInfo</string>
+			</dict>
+			<key>Processor</key>
+			<string>FileFinder</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>packageinfo_path</key>
+				<string>%found_filename%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>fw_app_version</key>
 				<string>%version%</string>
 				<key>fw_fileset_name</key>
 				<string>%NAME% - %version%</string>
 				<key>fw_import_source</key>
-				<string>%pkg_path%</string>
+				<string>%pathname%</string>
 			</dict>
 			<key>Comment</key>
 			<string>Import the Microsoft PowerPoint pkg into FileWave</string>
