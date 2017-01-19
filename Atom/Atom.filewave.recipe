@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads Adobe Flash Player installer, imports into FileWave.</string>
+	<string>Downloads the latest Atom disk image, converts it to a pkg, and imports into FileWave.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.filewave.AdobeFlashPlayer</string>
+	<string>com.github.TSPARR.filewave.Atom</string>
 	<key>Input</key>
 	<dict>
-	<key>NAME</key>
-	<string>Adobe Flash Player</string>
-  <key>fw_app_bundle_id</key>
-  <string>com.github.TSPARR.filewave.AdobeFlashPlayer</string>
-	<key>fw_fileset_group</key>
-	<string>Latest Adobe Flash Player</string>
+		<key>NAME</key>
+		<string>Atom</string>
+    <key>fw_app_bundle_id</key>
+    <string>com.github.TSPARR.filewave.Atom</string>
+		<key>fw_fileset_group</key>
+		<string>Latest Atom</string>
 	</dict>
 	<key>MinimumVersion</key>
-	<string>0.2.0</string>
+	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
+	<string>io.github.hjuutilainen.pkg.Atom</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -32,7 +32,7 @@
 				<string>%pkg_path%</string>
 			</dict>
 			<key>Comment</key>
-			<string>Import the Flash Player pkg into FileWave</string>
+			<string>Import the Atom pkg into FileWave</string>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
 		</dict>
