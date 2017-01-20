@@ -28,7 +28,7 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-<string>com.github.homebysix.pkg.AutoCasperNBI</string>
+<string>com.github.TSPARR.pkg.AutoCasperNBI</string>
 	<key>Process</key>
 	<array>
 		<dict>
