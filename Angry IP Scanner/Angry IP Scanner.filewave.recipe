@@ -5,22 +5,22 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.0.4 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of Suspicious Package, creates a fileset, and copies it into your FileWave Server.</string>
+	<string>Downloads the latest version of Angry IP Scanner, creates a fileset, and copies it into your FileWave Server.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.filewave.SuspiciousPackage</string>
+	<string>com.github.TSPARR.filewave.AngryIPScanner</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
 		<string>Suspicious Package</string>
 		<key>fw_app_bundle_id</key>
-		<string>com.github.TSPARR.filewave.SuspiciousPackage</string>
+		<string>com.github.TSPARR.filewave.AngryIPScanner</string>
 		<key>fw_fileset_group</key>
-		<string>Latest Suspicious Package</string>
+		<string>Latest Angry IP Scanner</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.TSPARR.pkg.SuspiciousPackage</string>
+	<string>com.github.TSPARR.pkg.AngryIPScanner</string>
 	<key>Process</key>
 	<array>
 		<dict>
@@ -34,7 +34,7 @@
 				<string>%pkg_path%</string>
 			</dict>
 			<key>Comment</key>
-			<string>Import the Suspicious Package pkg into FileWave</string>
+			<string>Import the Angry IP Scanner pkg into FileWave</string>
 			<key>Processor</key>
 			<string>com.github.autopkg.filewave.FWTool/FileWaveImporter</string>
 		</dict>
