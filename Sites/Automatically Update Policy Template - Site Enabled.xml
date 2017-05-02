@@ -20,7 +20,7 @@
 	<scripts>
 		<script>
 			<id>41</id>
-			<name>Uninstall Application.sh</name>
+			<name>Preinstall - Close Apps.sh</name>
 			<priority>Before</priority>
 			<parameter4>%PROD_NAME%.app</parameter4>
 		</script>
