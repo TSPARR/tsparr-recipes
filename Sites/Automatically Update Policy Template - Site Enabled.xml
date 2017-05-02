@@ -18,7 +18,12 @@
 		<!--Package added by JSSImporter-->
 	</package_configuration>
 	<scripts>
-		<!--Scripts added by JSSImporter-->
+		<script>
+			<id>41</id>
+			<name>Uninstall Application.sh</name>
+			<priority>Before</priority>
+			<parameter4>%PROD_NAME%.app</parameter4>
+		</script>
 	</scripts>
 	<self_service>
 		<use_for_self_service>false</use_for_self_service>
