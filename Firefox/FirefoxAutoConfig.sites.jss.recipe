@@ -28,7 +28,9 @@ necessary if the value you want differs from the parent pkg recipe.
 		<key>LOCALE</key>
 		<string>en_US</string>
 		<key>NAME</key>
-		<string>Firefox</string>
+		<string>FirefoxESR</string>
+		<key>PROD_NAME</key>
+		<string>Firefox ESR</string>
 		<key>ORG_NAME</key>
 		<string>Customized</string>
 		<key>PKG_ID</key>
@@ -72,8 +74,6 @@ necessary if the value you want differs from the parent pkg recipe.
 				<string>%POLICY_CATEGORY%</string>
 				<key>policy_template</key>
 				<string>%POLICY_TEMPLATE%</string>
-				<key>prod_name</key>
-				<string>%NAME%</string>
 				<key>self_service_description</key>
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
