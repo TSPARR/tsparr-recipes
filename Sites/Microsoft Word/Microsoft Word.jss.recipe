@@ -14,7 +14,7 @@
 		VERSION currently only supports 'latest'.
 		Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.jss.MicrosoftWord</string>
+	<string>com.github.TSPARR.sites.jss.MicrosoftWord</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>

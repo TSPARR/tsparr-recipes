@@ -12,7 +12,7 @@ Input variables have been provided below for your convenience, but are only
 necessary if the value you want differs from the parent pkg recipe.
 	</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.jss.FirefoxAutoconfig</string>
+	<string>com.github.TSPARR.sites.jss.FirefoxAutoconfig</string>
 	<key>Input</key>
 	<dict>
 		<key>AUTOCONFIG_DIR</key>
