@@ -103,7 +103,7 @@ necessary if the value you want differs from the parent pkg recipe.
 				<key>policy_category</key>
 				<string>Applications</string>
 				<key>policy_template</key>
-				<string>Automatically Install Policy Template - Site Enabled.xml</string>
+				<string>Policy Template - Site Enabled.xml</string>
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
