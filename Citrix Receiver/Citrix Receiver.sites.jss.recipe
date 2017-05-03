@@ -17,7 +17,7 @@
 		<key>NAME</key>
 		<string>CitrixReceiver</string>
 		<key>PROD_NAME</key>
-		<string>Citrix Reciever</string>
+		<string>Citrix Receiver</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
