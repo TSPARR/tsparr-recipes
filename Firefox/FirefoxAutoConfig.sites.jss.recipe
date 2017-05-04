@@ -76,10 +76,6 @@ necessary if the value you want differs from the parent pkg recipe.
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
-				<key>self_service_description</key>
-				<string>%SELF_SERVICE_DESCRIPTION%</string>
-				<key>self_service_icon</key>
-				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>

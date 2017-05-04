@@ -57,10 +57,6 @@
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
-				<key>self_service_description</key>
-				<string>%SELF_SERVICE_DESCRIPTION%</string>
-				<key>self_service_icon</key>
-				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
@@ -95,66 +91,6 @@
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
-		<!-- <dict>
-			<key>Arguments</key>
-			<dict>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Current</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Current Smart Group Template.xml</string>
-					</dict>
-				</array>
-				<key>pkg_path</key>
-				<string></string>
-				<key>policy_template</key>
-				<string></string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Needs Updates</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Smart Group Template.xml</string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Current</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Current Smart Group Template.xml</string>
-					</dict>
-				</array>
-				<key>scripts</key>
-				<dict/>
-				<key>policy_category</key>
-				<string>Uninstall</string>
-				<key>policy_template</key>
-				<string>Uninstall Policy Template.xml</string>
-				<key>prod_name</key>
-				<string>%PROD_NAME%</string>
-				<key>self_service_description</key>
-				<string>Having trouble with %PROD_NAME% or just no longer using it? This will completely remove it from your computer.</string>
-				<key>self_service_icon</key>
-				<string>Uninstall Citrix Receiver.png</string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict> -->
 	</array>
 </dict>
 </plist>
