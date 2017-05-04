@@ -1,9 +1,6 @@
 <script>
 	<name>Disable Google Chrome Auto-Update.sh</name>
 	<category>Applications</category>
-  <site>
-		<name>%SITE_NAME%</name>
-	</site>
 	<filename>Disable Google Chrome Auto-Update.sh</filename>
 	<info />
 	<notes />
