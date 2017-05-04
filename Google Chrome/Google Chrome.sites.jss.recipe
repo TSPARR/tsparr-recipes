@@ -55,6 +55,15 @@
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
+				<key>scripts</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Disable Google Chrome Auto-Update.sh</string>
+						<key>template_path</key>
+						<string>Google Chrome Script Template.xml</string>
+					</dict>
+				</array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
@@ -81,6 +90,15 @@
 				<string>Automatically Install Policy Template - Site Enabled.xml</string>
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
+				<key>scripts</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>Disable Google Chrome Auto-Update.sh</string>
+						<key>template_path</key>
+						<string>Google Chrome Script Template.xml</string>
+					</dict>
+				</array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
