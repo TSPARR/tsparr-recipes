@@ -20,9 +20,9 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>%SITE_NAME% - Software - %PROD_NAME% - Not Installed</string>
+		<string>%SITE_NAME% - Software - %PROD_NAME% - Needs Updates</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Not Installed Smart Group Template - Site Enabled.xml</string>
+		<string>Microsoft Excel Smart Group Template - Site Enabled.xml</string>
 		<key>NAME</key>
 		<string>MicrosoftExcel</string>
 		<key>PROD_NAME</key>
@@ -30,9 +30,9 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.12.x,10.11.x,10.10.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Applications</string>
+		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Automatically Install Policy Template - Site Enabled.xml</string>
+		<string></string>
 		<key>SITE_NAME</key>
 		<string>Test</string>
 	</dict>
@@ -105,7 +105,7 @@
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
-		<!-- <dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>category</key>
@@ -130,7 +130,7 @@
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
-		</dict> -->
+		</dict>
 	</array>
 </dict>
 </plist>
