@@ -23,7 +23,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Update Policy Template.xml</string>
+		<string>Automatically Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>This will update your copy to the latest version of %PROD_NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
