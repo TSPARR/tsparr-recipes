@@ -1,6 +1,6 @@
 <policy>
 	<general>
-		<name>%SITE_NAME% - Automatically Install %PROD_NAME%</name>
+		<name>Automatically Install %PROD_NAME%</name>
 		<enabled>true</enabled>
 		<trigger>CHECKIN</trigger>
 		<frequency>Ongoing</frequency>
