@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads the latest Oracle Java 8 JRE and copies out the flat installer pkg
+within, appending the version number to the filename. (Note the version of the actual
+pkg id for the com.oracle.jre pkg component is still always "1.0".)
+
+To use this recipe, you must accept the Oracle Binary Code License Agreement for Java SE.
+http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.TSPARR.automatic.jss.OracleJava8</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>Plug-Ins</string>
+		<key>GROUP_NAME</key>
+		<string>Plug-Ins - %PROD_NAME% - Needs Updates</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>Automatically Update Oracle Java 8 Smart Group Template.xml</string>
+		<key>NAME</key>
+		<string>OracleJava8</string>
+		<key>PROD_NAME</key>
+		<string>Oracle Java 8</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Plug-Ins</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>Automatically Update Policy Template.xml</string>
+		<key>SELF_SERVICE_DESCRIPTION</key>
+		<string>Browser plugin to allow execution of Java applets.</string>
+		<key>SELF_SERVICE_ICON</key>
+		<string>Oracle Java 8.png</string>
+		<key>Comment</key>
+		<string>Note: PlistReader without variable injection in AutoPkg requires setting "version" input key to an empty string, as below.</string>
+		<key>version</key>
+		<string></string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.pkg.OracleJava8</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>extension_attributes</key>
+				<array>
+					<dict>
+						<key>ext_attribute_path</key>
+						<string>Oracle Java 8 Extension Attribute.xml</string>
+					</dict>
+				</array>
+				<key>groups</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>%GROUP_NAME%</string>
+						<key>smart</key>
+						<true/>
+						<key>template_path</key>
+						<string>%GROUP_TEMPLATE%</string>
+					</dict>
+				</array>
+				<key>policy_category</key>
+				<string>%POLICY_CATEGORY%</string>
+				<key>policy_template</key>
+				<string>%POLICY_TEMPLATE%</string>
+				<key>prod_name</key>
+				<string>%PROD_NAME%</string>
+				<key>self_service_description</key>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
+				<key>self_service_icon</key>
+				<string>%SELF_SERVICE_ICON%</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>category</key>
+					<string>%CATEGORY%</string>
+					<key>groups</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>Plug-Ins - %PROD_NAME% - Not Installed</string>
+							<key>smart</key>
+							<true/>
+							<key>template_path</key>
+							<string>Install Oracle Java 8 Smart Group Template.xml</string>
+						</dict>
+					</array>
+					<key>policy_category</key>
+					<string>Plug-Ins</string>
+					<key>policy_template</key>
+					<string>Automatically Install Policy Template.xml</string>
+					<key>prod_name</key>
+					<string>%PROD_NAME%</string>
+					<key>self_service_description</key>
+					<string>This will install the latest version of %PROD_NAME%.
+
+Note: Encore Technologies does not recommend installing %PROD_NAME% unless it's needed for a critical website.</string>
+					<key>self_service_icon</key>
+					<string>%SELF_SERVICE_ICON%</string>
+				</dict>
+				<key>Processor</key>
+				<string>JSSImporter</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<dict>
+					<key>groups</key>
+					<array>
+						<dict>
+							<key>name</key>
+							<string>Plug-Ins - %PROD_NAME% - Current</string>
+							<key>smart</key>
+							<true/>
+							<key>template_path</key>
+							<string>Current Oracle Java 8 Smart Group Template.xml</string>
+						</dict>
+					</array>
+					<key>pkg_path</key>
+					<string></string>
+					<key>policy_template</key>
+					<string></string>
+				</dict>
+				<key>Processor</key>
+				<string>JSSImporter</string>
+			</dict>
+	</array>
+</dict>
+</plist>
