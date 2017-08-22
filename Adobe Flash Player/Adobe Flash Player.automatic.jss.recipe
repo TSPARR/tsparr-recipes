@@ -66,15 +66,6 @@
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
-				<key>scripts</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Disable Adobe Flash Player Auto-Update.sh</string>
-						<key>template_path</key>
-						<string>Adobe Flash Player Script Template.xml</string>
-					</dict>
-				</array>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
