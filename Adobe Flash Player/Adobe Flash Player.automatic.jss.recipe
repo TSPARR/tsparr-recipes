@@ -19,7 +19,7 @@
 		<key>PROD_NAME</key>
 		<string>Adobe Flash Player</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Plug-Ins</string>
+		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Automatically Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
