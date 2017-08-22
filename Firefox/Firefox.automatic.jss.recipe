@@ -88,7 +88,7 @@ combination is offered.</string>
 				<key>policy_category</key>
 				<string>Applications</string>
 				<key>policy_template</key>
-				<string>Policy Template.xml</string>
+				<string>Automatically Install Policy Template.xml</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
