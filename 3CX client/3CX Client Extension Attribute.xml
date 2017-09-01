@@ -1,0 +1,25 @@
+<computer_extension_attribute>
+	<name>3CX Version</name>
+	<description />
+	<data_type>String</data_type>
+	<input_type>
+		<type>script</type>
+		<platform>Mac</platform>
+		<script>#!/bin/bash
+				##############################################################################
+				# A script to collect the version of 3CX Phone currently installed. 				 #
+				# If flash is not installed "Not Installed" will return back                 #
+				##############################################################################
+				RESULT="Not Installed"
+
+				if [ -f "/Applications/3CXPhone.app/Contents/Info.plist" ] ; then
+					RESULT=$( defaults read "/Applications/3CXPhone.app/Contents/Info.plist" CFBundleVersion )
+				fi
+
+				echo "&lt;result&gt;$RESULT&lt;/result&gt;"
+
+		exit 0</script>
+	</input_type>
+	<inventory_display>Extension Attributes</inventory_display>
+	<recon_display>Extension Attributes</recon_display>
+</computer_extension_attribute>
