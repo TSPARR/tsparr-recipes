@@ -21,7 +21,7 @@
 		<key>PROD_NAME</key>
 		<string>3CXPhone</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Applications</string>
+		<string>Software Updates</string>
 		<key>POLICY_TEMPLATE</key>
 		<string>Automatically Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
