@@ -13,7 +13,7 @@
 		<key>APP_FILENAME</key>
 		<string>3CXPhone</string>
 		<key>BUNDLE_ID</key>
-		<string>3cxphone14</string>
+		<string>com.tsparr.3CX</string>
 		<key>NAME</key>
 		<string>3CX client</string>
 	</dict>
