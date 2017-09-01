@@ -15,7 +15,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>http://downloads.3cx.com/downloads/3CXPhoneForMac15.dmg</string>
 		<key>NAME</key>
-		<string>3CX client</string>
+		<string>3CXPhone</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
