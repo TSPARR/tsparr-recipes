@@ -18,27 +18,13 @@
 	<key>MinimumVersion</key>
 	<string>0.6.1</string>
 	<key>ParentRecipe</key>
-	<string>com.github.TSPARR.download.3CXclient</string>
+	<string>com.github.TSPARR.pkg.3CXclient</string>
 	<key>Process</key>
 	<array>
-		<dict>
-			<key>Arguments</key>
 			<dict>
-				<key>dmg_path</key>
-				<string>%pathname%</string>
-				<key>items_to_copy</key>
-				<array>
-					<dict>
-						<key>destination_path</key>
-						<string>/Applications</string>
-						<key>source_item</key>
-						<string>3CX client.app</string>
-					</dict>
-				</array>
+					<key>Processor</key>
+					<string>Installer</string>
 			</dict>
-			<key>Processor</key>
-			<string>InstallFromDMG</string>
-		</dict>
 	</array>
 </dict>
 </plist>
