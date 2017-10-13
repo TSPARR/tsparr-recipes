@@ -32,6 +32,8 @@
       <string>A tool which detects issues on your Mac, and reports them to IT.</string>
       <key>SELF_SERVICE_ICON</key>
       <string>Monitoring Client.png</string>
+      <key>SITE_NAME</key>
+      <string>Test</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
