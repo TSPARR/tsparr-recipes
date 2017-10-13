@@ -9,9 +9,9 @@
     <key>Input</key>
     <dict>
       <key>CATEGORY</key>
-      <string>Plug-Ins</string>
+      <string>Applications</string>
       <key>GROUP_NAME</key>
-      <string>Plug-Ins - %PROD_NAME% - Needs Updates</string>
+      <string>%SITE_NAME% - Software - %PROD_NAME% - Needs Updates</string>
       <key>GROUP_TEMPLATE</key>
       <string>Monitoring Client Smart Group Template - Site Enabled.xml</string>
       <key>NAME</key>
@@ -19,7 +19,7 @@
       <key>PROD_NAME</key>
       <string>Encore Monitoring Client</string>
       <key>POLICY_CATEGORY</key>
-      <string>Plug-Ins</string>
+      <string>Applications</string>
       <key>SUBDOMAIN</key>
       <string>www</string>
       <key>MONITORING_GROUP</key>
@@ -87,7 +87,7 @@
           <array>
             <dict>
               <key>name</key>
-              <string>Plug-Ins - %PROD_NAME% - Not Installed</string>
+              <string>%SITE_NAME% - Software - %PROD_NAME% - Not Installed</string>
               <key>smart</key>
               <true/>
               <key>template_path</key>
@@ -95,7 +95,7 @@
             </dict>
           </array>
           <key>policy_category</key>
-          <string>Plug-Ins</string>
+          <string>Applications</string>
           <key>policy_template</key>
           <string>Automatically Install Monitoring Client Policy Template - Site Enabled.xml</string>
           <key>prod_name</key>
@@ -115,7 +115,7 @@
           <array>
             <dict>
               <key>name</key>
-              <string>Plug-Ins - %PROD_NAME% - Current</string>
+              <string>%SITE_NAME% - Software - %PROD_NAME% - Current</string>
               <key>smart</key>
               <true/>
               <key>template_path</key>
