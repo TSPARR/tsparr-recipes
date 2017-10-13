@@ -13,7 +13,7 @@
       <key>GROUP_NAME</key>
       <string>Plug-Ins - %PROD_NAME% - Needs Updates</string>
       <key>GROUP_TEMPLATE</key>
-      <string>Monitoring Client Smart Group Template.xml</string>
+      <string>Monitoring Client Smart Group Template - Site Enabled.xml</string>
       <key>NAME</key>
       <string>EncoreMonitoringClient</string>
       <key>PROD_NAME</key>
@@ -27,7 +27,7 @@
       <key>AUTO_UPDATE</key>
       <string>true</string>
       <key>POLICY_TEMPLATE</key>
-      <string>Automatically Update Monitoring Client Policy Template.xml</string>
+      <string>Automatically Update Monitoring Client Policy Template - Site Enabled.xml</string>
       <key>SELF_SERVICE_DESCRIPTION</key>
       <string>A tool which detects issues on your Mac, and reports them to IT.</string>
       <key>SELF_SERVICE_ICON</key>
@@ -89,13 +89,13 @@
               <key>smart</key>
               <true/>
               <key>template_path</key>
-              <string>Install Monitoring Client Smart Group Template.xml</string>
+              <string>Install Monitoring Client Smart Group Template - Site Enabled.xml</string>
             </dict>
           </array>
           <key>policy_category</key>
           <string>Plug-Ins</string>
           <key>policy_template</key>
-          <string>Automatically Install Monitoring Client Policy Template.xml</string>
+          <string>Automatically Install Monitoring Client Policy Template - Site Enabled.xml</string>
           <key>prod_name</key>
           <string>%PROD_NAME%</string>
           <key>self_service_description</key>
@@ -117,7 +117,7 @@
               <key>smart</key>
               <true/>
               <key>template_path</key>
-              <string>Current Monitoring Client Smart Group Template.xml</string>
+              <string>Current Monitoring Client Smart Group Template - Site Enabled.xml</string>
             </dict>
           </array>
           <key>pkg_path</key>
