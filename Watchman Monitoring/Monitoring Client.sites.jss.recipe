@@ -19,7 +19,7 @@
       <key>PROD_NAME</key>
       <string>Encore Monitoring Client</string>
       <key>POLICY_CATEGORY</key>
-      <string>Applications</string>
+      <string>Software Updates</string>
       <key>SUBDOMAIN</key>
       <string>www</string>
       <key>MONITORING_GROUP</key>
