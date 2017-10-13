@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest version of Monitoring Client.</string>
     <key>Identifier</key>
-    <string>com.github.watchmanmonitoring.download.monitoringclient</string>
+    <string>com.github.TSPARR.download.monitoringclient</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -32,7 +32,7 @@
             <key>Arguments</key>
             <dict>
                 <key>filename</key>
-                <string>%NAME%-%SUBDOMAIN%-%version%.pkg</string>
+                <string>%NAME%-%version%.pkg</string>
             </dict>
         </dict>
         <dict>

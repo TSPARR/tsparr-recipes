@@ -36,7 +36,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.watchmanmonitoring.download.monitoringclient</string>
+    <string>com.github.TSPARR.download.monitoringclient</string>
     <key>Process</key>
     <array>
       <dict>
