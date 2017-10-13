@@ -1,0 +1,10 @@
+<script>
+	<name>Configure Encore Monitoring Client.sh</name>
+	<category>Applications</category>
+	<filename>Configure Encore Monitoring Client.sh</filename>
+	<info />
+	<notes />
+	<priority>Before</priority>
+	<parameters />
+	<os_requirements />
+</script>
