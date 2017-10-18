@@ -14,7 +14,7 @@
 		VERSION currently only supports 'latest'.
 		Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.sites.jss.MicrosoftExcel</string>
+	<string>com.github.TSPARR.automatic.jss.MicrosoftExcel</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
