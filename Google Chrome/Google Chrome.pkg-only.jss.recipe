@@ -11,9 +11,9 @@
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string></string>
+		<string>Software - %PROD_NAME% - Not Installed</string>
 		<key>GROUP_TEMPLATE</key>
-		<string></string>
+		<string>Not Installed Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>GoogleChrome</string>
 		<key>PROD_NAME</key>
@@ -21,13 +21,13 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.13.x,10.12.x,10.11.x,10.10.x,10.9.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string></string>
+		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string></string>
+		<string>Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string></string>
+		<string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
 		<key>SELF_SERVICE_ICON</key>
-		<string></string>
+		<string>Google Chrome.png</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
