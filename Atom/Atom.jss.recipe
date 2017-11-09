@@ -106,7 +106,7 @@
 					</dict>
 				</array>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %NAME%.</string>
+				<string>A hackable text editor for the 21st Century.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>

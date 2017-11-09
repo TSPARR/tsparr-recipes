@@ -86,7 +86,7 @@
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %PROD_NAME%.</string>
+				<string>Alfred is a productivity application for Mac OS X, which aims to save you time in searching your local computer and the web.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>

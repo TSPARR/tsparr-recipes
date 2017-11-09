@@ -88,7 +88,7 @@
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %NAME%.</string>
+				<string>Mirror your display and stream content from your iOS devices.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>

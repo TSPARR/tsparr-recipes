@@ -23,7 +23,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>Install the latest version of %PROD_NAME%.</string>
+		<string>This will update your copy to the latest version of %PROD_NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Suspicious Package.png</string>
 	</dict>
@@ -86,7 +86,7 @@
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %PROD_NAME%.</string>
+				<string>Quick Look Plug-in for OS X installer packages.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
