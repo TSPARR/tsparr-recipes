@@ -14,15 +14,15 @@
 		VERSION currently only supports 'latest'.
 		Then, uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.jss.MicrosoftWord</string>
+	<string>com.github.TSPARR.pkg-only.jss.MicrosoftWord</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>Software - %PROD_NAME% - Needs Updates</string>
+		<string>Software - %PROD_NAME% - Not Installed</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Microsoft Word Smart Group Template.xml</string>
+		<string>Not Installed Smart Group Template.xml</string>
 		<key>NAME</key>
 		<string>MicrosoftWord</string>
 		<key>PROD_NAME</key>
@@ -30,11 +30,11 @@
 		<key>OS_REQUIREMENTS</key>
 		<string>10.13.x,10.12.x,10.11.x,10.10.x</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Software Updates</string>
+		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Update Policy Template.xml</string>
+		<string>Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string>This will update your copy to the latest version of %PROD_NAME%.</string>
+		<string>Microsoft Word is a popular and powerful word processing app.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>Microsoft Word.png</string>
 	</dict>
@@ -107,96 +107,6 @@
 				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>category</key>
-				<string>%CATEGORY%</string>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Not Installed</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Not Installed Smart Group Template.xml</string>
-					</dict>
-				</array>
-				<key>policy_category</key>
-				<string>Applications</string>
-				<key>policy_template</key>
-				<string>Policy Template.xml</string>
-				<key>prod_name</key>
-				<string>%PROD_NAME%</string>
-				<key>self_service_description</key>
-				<string>This will install the latest version of %PROD_NAME%.</string>
-				<key>self_service_icon</key>
-				<string>%SELF_SERVICE_ICON%</string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Current</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Current Smart Group Template.xml</string>
-					</dict>
-				</array>
-				<key>pkg_path</key>
-				<string></string>
-				<key>policy_template</key>
-				<string></string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Needs Updates</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Smart Group Template.xml</string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>Software - %PROD_NAME% - Current</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Current Smart Group Template.xml</string>
-					</dict>
-				</array>
-				<key>scripts</key>
-				<dict/>
-				<key>policy_category</key>
-				<string>Uninstall</string>
-				<key>policy_template</key>
-				<string>Uninstall Policy Template.xml</string>
-				<key>prod_name</key>
-				<string>%PROD_NAME%</string>
-				<key>self_service_description</key>
-				<string>Having trouble with %PROD_NAME% or just no longer using it? This will completely remove it from your computer.</string>
-				<key>self_service_icon</key>
-				<string>Uninstall Microsoft Word.png</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
