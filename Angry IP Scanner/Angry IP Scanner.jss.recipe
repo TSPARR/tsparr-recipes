@@ -82,13 +82,13 @@
 					</dict>
 				</array>
 				<key>policy_category</key>
-				<string>Applications</string>
+				<string>Admin Software</string>
 				<key>policy_template</key>
 				<string>Policy Template.xml</string>
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %PROD_NAME%.</string>
+				<string>Angry IP scanner is a very fast IP address and port scanner</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>

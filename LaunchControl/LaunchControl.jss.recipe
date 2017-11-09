@@ -78,13 +78,13 @@
 					</dict>
 				</array>
 				<key>policy_category</key>
-				<string>Applications</string>
+				<string>Admin Software</string>
 				<key>policy_template</key>
 				<string>Policy Template.xml</string>
 				<key>prod_name</key>
 				<string>%NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %NAME%.</string>
+				<string>Create, manage, and debug launchd(8) services.</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>

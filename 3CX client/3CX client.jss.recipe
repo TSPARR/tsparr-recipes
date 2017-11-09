@@ -25,7 +25,7 @@
 		<key>POLICY_TEMPLATE</key>
 		<string>Automatically Update Policy Template.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
-		<string></string>
+		<string>The 3CX Client for Mac allows you to manage and oversee telephone calls directly from your computer and subsequently allows the user to work remotely from anywhere.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>3CX client.png</string>
 	</dict>
