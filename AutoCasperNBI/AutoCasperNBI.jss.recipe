@@ -78,7 +78,7 @@
 					</dict>
 				</array>
 				<key>policy_category</key>
-				<string>Applications</string>
+				<string>Admin Software</string>
 				<key>policy_template</key>
 				<string>Policy Template.xml</string>
 				<key>prod_name</key>
