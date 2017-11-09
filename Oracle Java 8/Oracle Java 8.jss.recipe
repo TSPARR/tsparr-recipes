@@ -134,51 +134,6 @@ Note: Encore Technologies does not recommend installing %PROD_NAME% unless it's 
 				<key>Processor</key>
 				<string>JSSImporter</string>
 			</dict>
-			<dict>
-				<key>Arguments</key>
-				<dict>
-					<key>groups</key>
-					<array>
-						<dict>
-							<key>name</key>
-							<string>Plug-Ins - %PROD_NAME% - Needs Updates</string>
-							<key>smart</key>
-							<true/>
-							<key>template_path</key>
-							<string>Automatically Update Oracle Java 8 Smart Group Template.xml</string>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>Plug-Ins - %PROD_NAME% - Current</string>
-							<key>smart</key>
-							<true/>
-							<key>template_path</key>
-							<string>Current Oracle Java 8 Smart Group Template.xml</string>
-						</dict>
-					</array>
-					<key>scripts</key>
-					<array>
-						<dict>
-							<key>name</key>
-							<string>Uninstall Oracle Java 8.sh</string>
-							<key>template_path</key>
-							<string>Uninstall Oracle Java 8 Script Template.xml</string>
-						</dict>
-					</array>
-					<key>policy_category</key>
-					<string>Uninstall</string>
-					<key>policy_template</key>
-					<string>Uninstall Oracle Java 8 Policy Template.xml</string>
-					<key>prod_name</key>
-					<string>%PROD_NAME%</string>
-					<key>self_service_description</key>
-					<string>Having trouble with %PROD_NAME% or just no longer using it? This will completely remove it from your computer.</string>
-					<key>self_service_icon</key>
-					<string>Uninstall Oracle Java 8.png</string>
-				</dict>
-				<key>Processor</key>
-				<string>JSSImporter</string>
-			</dict>
 	</array>
 </dict>
 </plist>
