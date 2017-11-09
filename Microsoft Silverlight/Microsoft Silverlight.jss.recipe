@@ -104,28 +104,6 @@ Note: Encore Technologies does not recommend installing %PROD_NAME% unless it's 
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>Plug-Ins - %PROD_NAME% - Current</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Current Microsoft Silverlight Smart Group Template.xml</string>
-					</dict>
-				</array>
-				<key>pkg_path</key>
-				<string></string>
-				<key>policy_template</key>
-				<string></string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
 	</array>
 </dict>
 </plist>
