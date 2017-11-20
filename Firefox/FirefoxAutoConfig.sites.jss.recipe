@@ -22,9 +22,9 @@ necessary if the value you want differs from the parent pkg recipe.
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>%SITE_NAME% - Software - %PROD_NAME% - Needs Updates</string>
+		<string>%SITE_NAME% - Software - %PROD_NAME% - Not Installed</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Smart Group Template - Site Enabled.xml</string>
+		<string>Not Installed Smart Group Template - Site Enabled.xml</string>
 		<key>LOCALE</key>
 		<string>en_US</string>
 		<key>NAME</key>
@@ -36,9 +36,9 @@ necessary if the value you want differs from the parent pkg recipe.
 		<key>PKG_ID</key>
 		<string>org.mozilla.firefox.pkg</string>
 		<key>POLICY_CATEGORY</key>
-		<string>Software Updates</string>
+		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Automatically Update Policy Template - Site Enabled.xml</string>
+		<string>Policy Template - Site Enabled.xml</string>
 		<key>RELEASE</key>
 		<string>latest</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
@@ -76,34 +76,8 @@ necessary if the value you want differs from the parent pkg recipe.
 				<string>%POLICY_TEMPLATE%</string>
 				<key>prod_name</key>
 				<string>%PROD_NAME%</string>
-			</dict>
-			<key>Processor</key>
-			<string>JSSImporter</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>category</key>
-				<string>%CATEGORY%</string>
-				<key>groups</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>%SITE_NAME% - Software - %PROD_NAME% - Not Installed</string>
-						<key>smart</key>
-						<true/>
-						<key>template_path</key>
-						<string>Not Installed Smart Group Template - Site Enabled.xml</string>
-					</dict>
-				</array>
-				<key>policy_category</key>
-				<string>Applications</string>
-				<key>policy_template</key>
-				<string>Policy Template - Site Enabled.xml</string>
-				<key>prod_name</key>
-				<string>%PROD_NAME%</string>
 				<key>self_service_description</key>
-				<string>This will install the latest version of %PROD_NAME%.</string>
+				<string>%SELF_SERVICE_DESCRIPTION%</string>
 				<key>self_service_icon</key>
 				<string>%SELF_SERVICE_ICON%</string>
 			</dict>
