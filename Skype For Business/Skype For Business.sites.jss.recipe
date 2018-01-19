@@ -5,15 +5,15 @@
 	<key>Description</key>
 	<string>Downloads latest Skype for business installer and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR.pkg-only.jss.SkypeForBusiness</string>
+	<string>com.github.TSPARR.sites.jss.SkypeForBusiness</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
 		<string>Applications</string>
 		<key>GROUP_NAME</key>
-		<string>Software - %PROD_NAME% - Not Installed</string>
+		<string>%SITE_NAME% - Software - %PROD_NAME% - Not Installed</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>Not Installed Smart Group Template.xml</string>
+		<string>Not Installed Smart Group Template - Site Enabled.xml</string>
 		<key>NAME</key>
 		<string>SkypeForBusiness</string>
 		<key>PROD_NAME</key>
@@ -23,7 +23,7 @@
 		<key>POLICY_CATEGORY</key>
 		<string>Applications</string>
 		<key>POLICY_TEMPLATE</key>
-		<string>Policy Template.xml</string>
+		<string>Automatically Install Policy Template - Site Enabled.xml</string>
 		<key>SELF_SERVICE_DESCRIPTION</key>
 		<string>Install the latest version of %NAME%.</string>
 		<key>SELF_SERVICE_ICON</key>
