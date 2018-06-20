@@ -9,7 +9,7 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>pgAdmin3</string>
+        <string>pgAdmin4</string>
         <key>DOWNLOAD_URL</key>
         <string>https://www.pgadmin.org/download/pgadmin-4-macos/</string>
 		<key>USER_AGENT</key>
