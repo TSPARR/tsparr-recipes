@@ -9,7 +9,7 @@
 
     These in turn, utilise the fwlink's found on macadmins.software</string>
     <key>Identifier</key>
-    <string>com.github.TSPARR.munki.Microsoft Outlook 365</string>
+    <string>com.github.TSPARR.munki.MicrosoftTeams</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
