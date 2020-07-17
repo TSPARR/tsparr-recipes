@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>CrashPlan</string>
+		<string>Code42</string>
 		<key>DOWNLOAD_URL</key>
 		<string>https://download.code42.com/installs/agent/latest-smb-mac.dmg</string>
 		<key>NAME</key>
