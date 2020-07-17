@@ -5,9 +5,9 @@
 	<key>Comment</key>
 	<string>Created with Recipe Robot v1.1.2 (https://github.com/homebysix/recipe-robot)</string>
 	<key>Description</key>
-	<string>Downloads the latest version of CrashPlanSMB.</string>
+	<string>Downloads the latest version of Code42 SMB.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR-recipes.download.CrashPlan</string>
+	<string>com.github.TSPARR-recipes.download.Code42</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
@@ -15,7 +15,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://download.code42.com/installs/agent/latest-smb-mac.dmg</string>
 		<key>NAME</key>
-		<string>CrashPlanSMB</string>
+		<string>Code42SMB</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
@@ -70,7 +70,7 @@
 				<key>destination_path</key>
 				<string>%RECIPE_CACHE_DIR%/payload</string>
 				<key>pkg_payload_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/crashplan.pkg/Payload</string>
+				<string>%RECIPE_CACHE_DIR%/unpack/code42.pkg/Payload</string>
 				<key>purge_destination</key>
 				<true/>
 			</dict>
@@ -81,7 +81,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/payload/CrashPlan.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/payload/Code42.app/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleShortVersionString</string>
 			</dict>

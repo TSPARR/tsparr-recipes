@@ -7,11 +7,11 @@
 	<key>Description</key>
 	<string>Downloads the latest version of CrashPlanSMB and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.TSPARR-recipes.munki.CrashPlan</string>
+	<string>com.github.TSPARR-recipes.munki.Code42</string>
 	<key>Input</key>
 	<dict>
 		<key>APP_FILENAME</key>
-		<string>CrashPlan</string>
+		<string>Code42</string>
 		<key>MUNKI_REPO_SUBDIR</key>
 		<string>Code42</string>
 		<key>NAME</key>
@@ -21,9 +21,9 @@
 			<key>blocking_applications</key>
 			<array>
 				<string>Electron Helper (Renderer).app</string>
-				<string>CrashPlan.app</string>
+				<string>Code42.app</string>
 				<string>Electron Helper (GPU).app</string>
-				<string>CrashPlanService.app</string>
+				<string>Code42Service.app</string>
 				<string>Electron Helper (Plugin).app</string>
 				<string>Electron Helper.app</string>
 			</array>
@@ -36,7 +36,7 @@
 			<key>developer</key>
 			<string>Code 42 Software</string>
 			<key>display_name</key>
-			<string>CrashPlanSMB</string>
+			<string>Code42</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -46,7 +46,7 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.TSPARR-recipes.download.CrashPlan</string>
+	<string>com.github.TSPARR-recipes.download.Code42</string>
 	<key>Process</key>
 	<array>
 		<dict>
