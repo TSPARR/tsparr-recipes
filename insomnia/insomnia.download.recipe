@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>GITHUB_REPO</key>
-		<string>getinsomnia/insomnia</string>
+		<string>Kong/insomnia</string>
 		<key>NAME</key>
 		<string>insomnia</string>
 	</dict>
@@ -25,7 +25,7 @@
 				<key>github_repo</key>
 				<string>%GITHUB_REPO%</string>
 				<key>asset_regex</key>
-				<string>Insomnia-.+mac.zip</string>
+				<string>Insomnia\.Core-.+\.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>GitHubReleasesInfoProvider</string>
@@ -34,7 +34,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>filename</key>
-				<string>%NAME%-%version%.tar.gz</string>
+				<string>%NAME%-%version%.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
