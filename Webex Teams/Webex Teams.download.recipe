@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://binaries.webex.com/WebexTeamsDesktop-MACOS-Gold/WebexTeams.dmg</string>
+				<string>https://binaries.webex.com/WebexTeamsDesktop-MACOS-Gold/Webex.dmg</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
