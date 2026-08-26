@@ -46,7 +46,7 @@ To download Intel use: "x64" in the DOWNLOAD_ARCH variable and "x86_64" in the S
     <key>MinimumVersion</key>
     <string>1.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.dataJAR-recipes.download.SecureCRT</string>
+    <string>com.github.tsparr-recipes.download.SecureCRT</string>
     <key>Process</key>
     <array>
         <dict>
