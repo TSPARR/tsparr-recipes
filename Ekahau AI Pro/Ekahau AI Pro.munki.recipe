@@ -7,7 +7,7 @@
     NOTE: When launching this App there are PPPC prompts for sh and java.
     The parent .pkg recipe can handle the sh prompt but the java prompt seems unavoidable</string>
     <key>Identifier</key>
-    <string>com.github.tsparr-recipes.munki.Ekahau Pro</string>
+    <string>com.github.tsparr-recipes.munki.Ekahau AI Pro</string>
     <key>Input</key>
     <dict>
         <key>Comment</key>
