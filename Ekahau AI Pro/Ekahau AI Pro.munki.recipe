@@ -3,40 +3,41 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads the latest unlicensed version of Ekahau Pro, turns it into a package to add to Munki.
-    NOTE: When launching this App there are PPPC prompts for sh and java.
-    The parent .pkg recipe can handle the sh prompt but the java prompt seems unavoidable</string>
+    <string>Downloads the latest unlicensed version of Ekahau AI Pro and imports to Munki.</string>
     <key>Identifier</key>
     <string>com.github.tsparr-recipes.munki.Ekahau AI Pro</string>
     <key>Input</key>
     <dict>
-        <key>Comment</key>
-        <string>This will set the lanugaue for Ekahau Pro to avoid one of the two PPPC prompts
-
-Acceptable values for this are:
-
-"en" for English
-"fr" for French / Française
-"de" for German / Deutsche
-"ja" for Japanese / 日本人s</string>
-        <key>LANGUAGE</key>
-        <string>en</string>
         <key>NAME</key>
-        <string>Ekahau Pro</string>
+        <string>EkahauAIPro</string>
         <key>MUNKI_REPO_SUBDIR</key>
         <string>apps/%NAME%</string>
         <key>pkginfo</key>
         <dict>
+            <key>blocking_applications</key>
+            <array>
+                <string>Ekahau AI Pro.app</string>
+                <string>Ekahau Pro.app</string>
+            </array>
             <key>catalogs</key>
             <array>
                 <string>testing</string>
             </array>
             <key>description</key>
             <string>Industry standard tool for designing, analyzing, optimizing and troubleshooting WiFi Networks.</string>
+            <key>developer</key>
+            <string>Ekahau Inc</string>
             <key>display_name</key>
-            <string>Ekahau Pro</string>
+            <string>Ekahau AI Pro</string>
             <key>name</key>
-            <string>EkahauPro</string>
+            <string>%NAME%</string>
+            <key>preinstall_script</key>
+            <string>#!/bin/zsh --no-rcs
+
+if [[ -d "/Applications/Ekahau Pro.app" ]]; then
+    /bin/rm -rf "/Applications/Ekahau Pro.app"
+fi
+</string>
             <key>unattended_install</key>
             <true/>
             <key>unattended_uninstall</key>
@@ -44,7 +45,7 @@ Acceptable values for this are:
         </dict>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.6.1</string>
+    <string>1.1</string>
     <key>ParentRecipe</key>
     <string>com.github.tsparr-recipes.pkg.Ekahau AI Pro</string>
     <key>Process</key>

@@ -3,20 +3,18 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Download recipe for the latest unlicensed version of Ekahau Pro.
-    NOTE: When launching this App there are PPPC prompts for sh and java.
-    The .pkg recipe can handle the sh prompt but the java prompt seems unavoidable</string>
+    <string>Download recipe for the latest unlicensed version of Ekahau AI Pro.</string>
     <key>Identifier</key>
     <string>com.github.tsparr-recipes.download.Ekahau AI Pro</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>Ekahau Pro</string>
+        <string>EkahauAIPro</string>
         <key>SEARCH_URL</key>
         <string>https://sw.ekahau.com/download/pro/</string>
     </dict>
     <key>MinimumVersion</key>
-    <string>0.6.1</string>
+    <string>1.1</string>
     <key>Process</key>
     <array>
         <dict>
