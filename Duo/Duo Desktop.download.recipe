@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.keeleysam.recipes.download.DuoDesktop</string>
+	<string>com.github.tsparr-recipes.download.DuoDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
