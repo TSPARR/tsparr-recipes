@@ -33,7 +33,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.tsparr.download.VAULTDock</string>
+	<string>com.github.tsparr.download.VAULTDock</string>
 	<key>Process</key>
 	<array>
 		<dict>
