@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Download recipe for the latest unlicensed version of Ekahau AI Pro.</string>
     <key>Identifier</key>
-    <string>com.github.tsparr-recipes.download.Ekahau AI Pro</string>
+    <string>com.github.tsparr.download.Ekahau AI Pro</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

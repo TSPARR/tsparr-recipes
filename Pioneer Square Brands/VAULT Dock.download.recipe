@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VAULT Dock.</string>
 	<key>Identifier</key>
-	<string>com.tsparr.download.VAULTDock</string>
+	<string>com.github.tsparr.download.VAULTDock</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.tsparr-recipes.munki.DuoDesktop</string>
+	<string>com.github.tsparr.munki.DuoDesktop</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -44,7 +44,7 @@ fi</string>
 		</dict>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.tsparr-recipes.download.DuoDesktop</string>
+	<string>com.github.tsparr.download.DuoDesktop</string>
 	<key>Process</key>
 	<array>
 		<dict>

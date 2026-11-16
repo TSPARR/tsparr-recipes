@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads the latest unlicensed version of Ekahau AI Pro and imports to Munki.</string>
     <key>Identifier</key>
-    <string>com.github.tsparr-recipes.munki.Ekahau AI Pro</string>
+    <string>com.github.tsparr.munki.Ekahau AI Pro</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -47,7 +47,7 @@ fi
     <key>MinimumVersion</key>
     <string>1.1</string>
     <key>ParentRecipe</key>
-    <string>com.github.tsparr-recipes.pkg.Ekahau AI Pro</string>
+    <string>com.github.tsparr.pkg.Ekahau AI Pro</string>
     <key>Process</key>
     <array>
         <dict>

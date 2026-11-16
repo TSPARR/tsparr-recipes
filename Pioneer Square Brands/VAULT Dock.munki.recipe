@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of VAULT Dock and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.tsparr.munki.VAULTDock</string>
+	<string>com.github.tsparr.munki.VAULTDock</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>

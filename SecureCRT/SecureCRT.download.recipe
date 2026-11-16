@@ -8,7 +8,7 @@
 To download Apple Silicon use: "arm64" in the DOWNLOAD_ARCH variable
 To download Intel use: "x64" in the DOWNLOAD_ARCH variable</string>
     <key>Identifier</key>
-    <string>com.github.tsparr-recipes.download.SecureCRT</string>
+    <string>com.github.tsparr.download.SecureCRT</string>
     <key>Input</key>
     <dict>
         <key>DOWNLOAD_ARCH</key>
